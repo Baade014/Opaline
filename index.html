@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opaline - Home</title>
+    <link rel="icon" href="midia/opalineFavicon.png" type="image/png">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/colors.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        .mySlides {display:none;}
+    </style>
+</head>
+<body>
+    <header>
+        <img src="midia/logoOpalineWhite.png" id="opalineLogo" href="index.html" alt="Logo da Marca" onmouseenter="logoDarker();" onmouseleave="logoNormal();">
+        <form id="frmPesquisa" name="frmPesquisa">
+            <input name="inPesquisa" id="inPesquisa" type="text" placeholder="Digite o que está procurando aqui..."></input>
+            <button id="btnPesquisar" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div id="icones-esq">
+            <i class="fa-solid fa-toggle-off icone-header" id="icone-modo" onclick="alterarModo();"></i>
+            <i class="fa-solid fa-user icone-header"></i>
+            <i class="fa-solid fa-basket-shopping icone-header"></i>
+        </div>
+    </header>
+    <nav>
+        <a href="perfumes.html">Perfumaria</a>
+        <a href="bodySplashes.html">Body splashes</a>
+        <a href="skinCare.html">Skin care</a>
+        <a href="make.html">Maquiagem</a>
+        <a href="bathEbody.html">Bath & body</a>
+        <a href="kits.html">Kits</a>
+        <a href="sobre.html">Sobre nós</a>
+        <a href="revendedor.html">Começe a revender</a>
+    </nav>
+    <div class="container">
+        <div id="pre-container">
+            <i class="fa-solid fa-truck-fast"></i>
+            Frete grátis para todo o Brasil com o cupom: FRETE100
+        </div>
+        <div id="slideShow" class="w3-content w3-display-container">
+            <img class="mySlides" src="midia/cta1.png" style="width:100%">
+            <img class="mySlides" src="midia/cta2.png" style="width:100%">
+
+            <button class="w3-button bg-white-35 display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button bg-white-35 display-right" onclick="plusDivs(1)">&#10095;</button>
+        </div>
+    </div>
+    <footer>
+        <div id="box-l">
+            <div id="departamentos">
+                <h1>Departamentos</h1>
+                <div class="txt-box-l w192">
+                    <a href="#PoliticaDePrivacidade">Política de privacidade</a>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+                <div class="txt-box-l">
+                    <a href="#Trocas">Trocas e devoluções</a>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </div>
+            </div>
+            <div id="pagamentos">
+                <h1>Métodos de pagamento</h1>
+                <img src="midia/pix@2x.jpg" alt="Pix">
+                <img src="midia/visa@2x.png" alt="Visa">
+                <img src="midia/mastercard@2x.png" alt="Mastercard">
+                <img src="midia/elo@2x.png" alt="Elo">
+                <i class="fa-brands fa-cc-paypal"></i>
+                <i class="fa-brands fa-cc-apple-pay"></i>
+                <i class="fa-brands fa-cc-amazon-pay"></i>
+            </div>
+        </div>
+        <div id="box-r">
+            <div id="contato">
+                <h1>Entre em contato</h1>
+                <div class="txt-box-r">
+                    <a>+55 014 99769-0945</a>
+                    <i class="fa-brands fa-whatsapp"></i>
+                </div>
+                <div class="txt-box-r">
+                    <a>suporte.opaline@gmail.com</a>
+                    <i class="fa-regular fa-envelope"></i>
+                </div>
+            </div>
+            <div id="voltar-topo">
+                <a href="">Voltar para o topo</a>
+                <i class="fa-solid fa-arrow-up"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="js/scripts.js"></script>
+</html>

@@ -1,0 +1,226 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fef7ff;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-mode);
+    color: var(--font-mode);
+    border-color: var(--border-mode);
+    display: flex;
+    flex-direction: column;
+}
+
+body.dark-mode {
+    --bg-mode: var(--bg-dark);
+    --font-mode: var(--font-dark);
+    --border-mode: var(--border-dark);
+}
+
+header {
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    align-content: space-between;
+    width: 100%;
+    max-width: 100vw;
+    color: #ffffff;
+    background-color: #cb6ce6;
+    border-bottom: 1px solid #dd93f2;
+
+}
+
+header img {
+    width: 200px;
+    justify-self: center;
+    align-items: flex-start;
+    margin: 0px 25px;
+}
+
+.icone-header:hover {
+    transition: 0.25s;
+    color: #edcbf1;
+}
+
+#inPesquisa {
+    background-color: #f5d0ff;
+    border: 0px;
+    height: 50px;
+    width: 975px;
+    padding: 0px 15px;
+    font-size: 17px;
+}
+
+#inPesquisa:focus {
+    outline: none;
+}
+
+#btnPesquisar { 
+    background-color: #f5d0ff;
+    justify-self: center;
+    border: 0px;
+    padding: 0px 5px 0px 0px;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+    color: #9a53af; 
+}
+
+#btnPesquisar:hover {
+    transition: 0.25s;
+    color: #cb6ce6;
+}
+
+#frmPesquisa {
+    display: flex;
+    background-color: #f5d0ff;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+#icones-esq {
+    margin-left: auto;
+}
+
+#icones-esq i {
+    margin-right: 25px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #cb6ce6;
+    padding: 5px 0px;
+    justify-content: space-around;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    transition: 0.25s;
+    color: #edcbf1;
+}
+
+#pre-container {
+    color: #cb6ce6;
+    background-color: var(--bg-mode);
+    padding: 5px 0px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    width: 100%;
+    background-color: #cb6ce6;
+}
+
+footer h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.txt-box-l {
+    font-size: 18px;
+    margin: 5px 0px;
+    padding: 5px;
+    width: 175px;
+}
+
+.w192 {
+    width: 192px;
+}
+
+#pagamentos img {
+    width: 50px;
+    border-radius: 5px;
+}
+
+#pagamentos i {
+    font-size: 35px;
+}
+
+#box-l {
+    margin-right: 50px;
+}
+
+#box-r {
+    margin-left: 50px;
+}
+
+#voltar-topo {
+    margin-top: 25px;
+    width: 174px;
+    padding: 5px;
+}
+
+.txt-box-l a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.txt-box-r a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+#voltar-topo a {
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+#voltar-topo:hover {
+    transition: 0.3s;
+    background-color: #9a53af;
+    border-radius: 10px;
+}
+
+.txt-box-l:hover {
+    transition: 0.3s;
+    background-color: #9a53af;
+    border-radius: 10px;
+}
+
+/* slideShow */
+#slideShow {
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+}
+
+#slideShow button {
+    border: 0px;
+    color: white;
+    margin: 0px;
+    font-size: 40px;
+    padding: 0px 15px;
+    position: absolute;
+}
+
+.bg-white-35 {
+    background-color: hsla(0, 0%, 100%, 0.35);
+}
+
+.bg-white-35:hover {
+    transition: 250ms;
+    background-color: hsla(0, 0%, 100%, 0.5);
+}
+
+.display-right {
+    align-self: center;
+    transform: translateX(2911%);
+}
+
+.display-left {
+    align-self: center;
+}

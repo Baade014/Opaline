@@ -1,0 +1,13 @@
+:root {
+    --bg-light: #fef7ff;
+    --bg-dark: #313131;
+    --bg-mode: var(--bg-light);
+
+    --font-light: #313131;
+    --font-dark: #fef7ff;
+    --font-mode: var(--font-light);
+
+    --border-light: #313131;
+    --border-dark: #fef7ff;
+    --border-mode: var(--border-light);
+}
